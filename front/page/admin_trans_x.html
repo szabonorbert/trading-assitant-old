@@ -1,0 +1,91 @@
+<a class="btn btn-light bottom20" href="{{url}}admin/trans">vissza</a>
+
+<div class="row">
+	<div class="col-md-8">
+		<h2>Tranzakció #{{trans_id}} {{trans_account_type_translated}}</h2>
+		
+		<form>
+			<div class="form-group">
+				<label>Tranzakció állapota:</label>
+				<input type="text" class="form-control" disabled value="{{trans_current_state}}" />
+				<small>állapotok: {{trans_states}}</small>
+			</div>
+			<div class="form-group">
+				<label>Kiválasztott csomag:</label>
+				<input type="text" class="form-control" disabled value="{{trans_account_type_translated}}" />
+			</div>
+			<div class="form-group">
+				<label>TxID:</label>
+				<a style="text-align: left;"href="https://www.bscscan.com/tx/{{trans_trans_id}}" target="_blank" class="btn btn-secondary w100">{{trans_trans_id}}</a>
+			</div>
+			<div class="form-group">
+				<label>Ár:</label>
+				<input type="text" class="form-control" disabled value="{{trans_sum}} {{trans_curr}}" />
+			</div>
+			<div class="form-group">
+				<label>Ide kell érkeznie a cryptonak:</label>
+				<input type="text" class="form-control" disabled value="{{address}}" />
+			</div>
+			<div class="form-group" style="opacity: 0.5;">
+				<label>Egyéb:</label>
+				<textarea disabled class="form-control" rows="4">
+tranzakciót indította: {{start_date}}
+fizetettnek jelölve (beírta a tranzakció ID-t): {{trans_id_date}}
+tranzakció visszavonva: {{cancelled_date}}
+tranzakció admin által teljesítettve: {{fulfilled_date}}</textarea>
+			</div>
+		</form>
+		
+		
+	</div>
+	
+	<div class="col-md-4" style="">
+		<h2>User <a target="_blank" href="{{url}}admin/user/{{user_id}}">#{{user_id}} {{user_discord_name}}</a></h2>
+		<form>
+			<div class="form-group">
+				<label>Email:</label>
+				<input type="text" class="form-control" disabled value="{{user_mail}}" />
+			</div>
+			<div class="form-group">
+				<label>Aktuális csomagja:</label>
+				<input type="text" class="form-control" disabled value="{{user_account_type_translated}}" />
+			</div>
+			<div class="form-group">
+				<label>Aktuális csomagja lejár:</label>
+				<input type="text" class="form-control" disabled value="{{user_account_exp}}" />
+			</div>
+		</form>
+		
+		
+		<form class="top20 {{hide_if_no_payed}}" method="post" action="{{url}}function/admin/change_account_type" style="border-style: solid; border-color: red; border-width: 2px;">
+			
+			<div class="form-group">
+				<label>Új csomagja:</label>
+				<select name="account_type" class="form-control">
+					{{options}}
+				</select>
+			</div>
+			
+			<div class="form-group">
+				<label>Új csomagja lejár:</label>
+				<input type="date" class="form-control" name="account_exp" value="{{default_date_value}}" min="{{today_date_value}}" />
+			</div>
+			
+			<input type="hidden" name="user_id" value="{{user_id}}" />
+			<input type="hidden" name="trans_id" value="{{trans_id}}" />
+			
+			<input type="submit" class="btn btn-primary w100" value="Mentés" />
+			
+		</form>
+	</div>
+	
+	
+	
+</div>
+
+<h2 class="top20">History</h2>
+<div class="wide_stuff_container">
+	<ul>
+		{{history}}
+	</ul>
+</div>

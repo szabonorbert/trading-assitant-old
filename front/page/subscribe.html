@@ -1,0 +1,35 @@
+<div class="row">
+	
+	<div class="col-md-8">
+		<div class="form"><h2>Az előfizetés menete</h2>
+			<ol>
+				<li style="margin-bottom: 10px;">
+					<b>Utalás</b><br />
+					Miután kiválasztottad, hogy melyik csomagra szeretnél előfizetni, el kell utalnod annak ellenétékét a megadott BUSD címre a BEP20 láncon.</li>
+				<li style="margin-bottom: 10px;">
+					<b>Tranzakciós ID mentése</b><br />
+					Amikor az utalás végbement, be kell illesztened a tranzakció azonosítóját a megadott mezőbe, hogy az adminisztrátor ellenőrizni tudja, hogy az utalás sikeresen megtörtént.</li>
+				<li style="margin-bottom: 10px;">
+					<b>Aktiválás</b><br />
+					Mentés után nincs további teendőd. A rendszer automatikusan értesíti az adminisztrátort, aki 24 órán belül ellenőrzi a tranzakciót, majd aktiválja a Trading Assistant fiókod webes és Discord felületét is. Erről email értesítést fogsz kapni. Ha 24 óra múlva sem találod a levelet, akkor ellenőrizd a spam mappádat is!</li>
+			</ol>
+			
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="form bottom20">
+			<div class="form-group">
+				<label class="bold">Aktuális csomagod:</label>
+				<input disabled class="form-control form-control-sm" value="{{account_type}}"/>
+			</div>
+			<div class="form-group">
+				<label class="bold">Lejár ekkor:</label>
+				<input disabled class="form-control form-control-sm" value="{{account_exp}}"/>
+			</div>
+		</div>
+		<div class="form bottom20" style="padding: 5px;">
+			<a href="{{url}}/subscribe/table" class="btn btn-primary w100 b {{table_hide}}" style="padding: 10px;"/>Előfizetés indítása</a>
+			<a href="{{url}}/subscribe/currentorder" class="btn btn-primary w100 b {{currentorder_hide}}" style="padding: 10px;"/>Folyamatban lévő tranzakció részletei</a>
+		</div>
+	</div>
+</div>

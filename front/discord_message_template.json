@@ -1,0 +1,5 @@
+{
+  "username": "{{sender}}",
+  "avatar_url": "https://ta.binarych.com/front/img/ta_discord_chatbot_avatar_128.png",
+  "content": "{{message}}"
+}

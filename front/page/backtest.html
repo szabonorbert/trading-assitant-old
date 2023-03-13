@@ -1,0 +1,167 @@
+<div class="table_page">
+	
+	<!--<div style="text-transform: uppercase; font-size: 16px; font-weight: bold; background-color: #f44336; color: white; padding: 5px 10px; display: inline-block; position: absolute; top: 3px; right: -10px; -moz-transform: rotate(10deg); -webkit-transform: rotate(10deg); -o-transform: rotate(10deg); -ms-transform: rotate(10deg); transform: rotate(10deg); letter-spacing: 1px;">Open Weeks<div style="text-align: center; font-size: 10px; letter-spacing: 0;">2022.05.23. - 06.03.</div></div>-->
+	
+	<h1><i class="fa-solid fa-database icon"></i> Backtest példatár
+	<a style="color: var(--main-yellow); margin-left: 10px; position: relative; top: -0.8em; font-size: 0.5em;" href="#"><i data-toggle="tooltip" title="Információ a feltöltött adatokról" id="backtest_info" class="fa-solid fa-circle-info"></i></a>
+	</h1>
+	
+	<form class="bottom40" action="" method="get">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="form-group">
+					<label>instrumentum</label>
+					<select name="instrument" class="form-control">
+						{{instrument_select}}
+					</select>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="form-group">
+					<label>idősík</label>
+					<select name="timeframe" class="form-control">
+						{{timeframe_select}}
+					</select>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="form-group">
+					<label>állapot</label>
+					<select name="state" class="form-control">
+						{{state_select}}
+					</select>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-12">
+				<div class="form-group">
+					<label>dátum</label>
+					<div class="input-group">
+						<select name="y" class="form-control">
+							{{year_select}}
+						</select>
+						<div class="input-group-append">
+							<div class="input-group-text">év</div>
+						</div>
+						<select name="m" class="form-control">
+							{{month_select}}
+						</select>
+						<div class="input-group-append">
+							<div class="input-group-text">hónap</div>
+						</div>
+						<select name="d" class="form-control">
+							{{day_select}}
+						</select>
+						<div class="input-group-append">
+							<div class="input-group-text">nap</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="form-group">
+					<label>idő</label>
+					<div class="input-group">
+						<select name="h_from" class="form-control">
+							{{h_from_select}}
+						</select>
+						<div class="input-group-append">
+							<div class="input-group-text">-tól</div>
+						</div>
+						<select name="h_to" class="form-control">
+							{{h_to_select}}
+						</select>
+						<div class="input-group-append">
+							<div class="input-group-text">-ig</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-6">
+				<label>&nbsp;</label>
+				<input type="submit" class="btn btn-primary w100" value="Szűrés" />
+			</div>
+		</div>
+		
+		<small><small>teljes adatbázis: {{full_db_num}} rekord - jelenleg leszűrve: {{all_data_num}} rekord</small></small>
+	</form>
+	
+	<div class="wide_stuff_container bottom40">
+		<table class="exchange_table table">
+		
+			<thead>
+				<tr>
+					<th></th>
+					<th>instrumentum</th>
+					<th>idősík</th>
+					<th>chart iránya</th>
+					<th>állapot</th>
+					<th>dátum</th>
+					<th>idő</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				{{table_data}}
+			</tbody>
+		
+		</table>
+	</div>
+	
+	<div class="paginator" style="text-align: center;">
+		<a class="btn btn-primary {{prev_page_hide}}" href="#" data-go="{{prev_page}}"><i class="fa-solid fa-angle-left"></i></a>
+		<select style="width: 70px; display: inline-block;" class="form-control">{{paginator_options}}</select> / <input style="width: 70px; display: inline-block;" class="form-control" value="{{all_page}}" disabled>
+		<a class="btn btn-primary {{next_page_hide}}" href="#" data-go="{{next_page}}"><i class="fa-solid fa-angle-right"></i></a>
+		<input type="hidden" id="current_page" value="{{current_page}}">
+	</div>
+	
+</div>
+
+
+
+<div class="hide" id="info_content">
+	{{backtest_info}}
+</div>
+
+<script>
+	$(".exchange_table tbody tr .clickable").click(function(){
+		var t = $(this).parent();
+		if (t.hasClass("greened")){
+			t.removeClass("greened");
+		} else {
+			t.addClass("greened");
+		}
+	});
+	
+	var current_page = $(".paginator #current_page").val();
+	
+	$(".paginator select").change(function(){
+		newpage = $(".paginator select option:selected").val();
+		if (newpage != current_page) goToPage(newpage);
+	});
+	
+	$(".paginator .btn").click(function(){
+		var go = $(this).data("go");
+		goToPage(go);
+		return false;
+	});
+	
+	function goToPage(num){
+		let basepath = window.location.href.split('?')[0];
+		console.log(basepath);
+		let fullpath = new URL(window.location.href);
+		let params = new URLSearchParams(fullpath.search);
+		params.set('page', num);
+		window.location.href = basepath + "?" + params.toString()
+	}
+	
+	$(document).ready(function(){
+		$("#backtest_info").click(function(){
+			$('#modal .modal-title').html("A következő adatok lettek eddig feltöltve:");
+			$('#modal .modal-body').html($("#info_content").html());
+			$('#modal').modal();
+			return false;
+			return false;
+		});
+	});
+	
+</script>

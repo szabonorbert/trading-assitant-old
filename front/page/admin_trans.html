@@ -1,0 +1,53 @@
+<a class="btn btn-light bottom20" href="{{url}}admin">vissza</a>
+
+<div class="{{hide_if_no_todo}}">
+	<h2>Admin teendők</h2>
+
+	<div class="form" style="border-style: solid; border-color: red; border-width: 2px;">
+	<b style="color: red;">TEENDŐ: fizetettnek jelölt, de még nem elfogadott:</b><br />
+	<hr>
+	<br />
+	<table class="table">
+		<thead class="b">
+			<tr>
+				<td></td>
+				<td>user</td>
+				<td>tranzakció elindítva</td>
+				<td>fizetettnek jelölve</td>
+				<td>állapot</td>
+				<td>csomag</td>
+				<td>ár</td>
+				<td></td>
+			</tr>
+		</thead>
+		<tbody class="table-striped">
+			{{todo_trans_list}}
+		</tbody>
+	</table>
+	</div>
+
+	<hr>
+</div>
+
+<div class="form">
+<b>Tranzakciók, ahol nincs teendő</b><br />
+<small>(utolsó 30 rekord)</small>
+<hr>
+<br />
+<table class="table">
+	<thead class="b">
+		<tr>
+			<td></td>
+			<td>user</td>
+			<td>tranzakció elindítva</td>
+			<td>állapot</td>
+			<td>csomag</td>
+			<td>ár</td>
+			<td></td>
+		</tr>
+	</thead>
+	<tbody class="table-striped">
+		{{other_trans_list}}
+	</tbody>
+</table>
+</div>

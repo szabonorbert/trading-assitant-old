@@ -1,0 +1,67 @@
+<div class="eval">
+	<div style="text-align: center; font-size: 18px; font-weight: bold;">{{cname}}</div>
+	<div style="text-align: center;">{{tname}}</div>
+	
+	<hr>
+	
+	<div style="text-align: center; font-size: 25px; font-weight: bold;" class="p-4 {{percent_class}} {{text-white}}">{{percent}}%</div>
+	
+	<hr>
+	
+	<div class="alert {{label_class}}">
+		<b>Közös címkék:</b><br />
+		<small>{{label_msg}}</small>
+	</div>
+	<div class="alert {{legal_class}}">
+		<b>Jogi forma:</b><br />
+		<small>{{legal_msg}}</small>
+	</div>
+	<div class="alert {{gfo_class}}">
+		<b>Gazdasági forma:</b><br />
+		<small>{{gfo_msg}}</small>
+	</div>
+	<div class="alert {{region_class}}">
+		<b>Régió:</b><br />
+		<small>{{region_msg}}</small>
+	</div>
+	<div class="alert {{first_teaor_class}}">
+		<b>Kötelező elsődleges TEÁOR:</b><br />
+		<small>{{first_teaor_msg}}</small>
+	</div>
+	<div class="alert {{second_teaor_class}}">
+		<b>Megvalósítható tevékenységek:</b><br />
+		<small>{{second_teaor_msg}}</small>
+	</div>
+	
+	<hr>
+	
+	<div class="row">
+		<div class="col-md-6 bottom10">
+			<a target="_blank" class="w100 btn btn-sm btn-secondary" href="{{url}}client/{{cid}}">Partner adatlap ellenőrzése</a>
+		</div>
+		<div class="col-md-6 bottom10">
+			<a target="_blank" class="w100 btn btn-sm btn-secondary" href="{{url}}tender/{{tid}}">Pályázati adatlap ellenőrzése</a>
+		</div>
+	</div>
+	
+	<div class="{{show_admin}}">
+	
+		<hr>
+	
+		<div class="row">
+			<div class="col-md-6 bottom10">
+				<a class="w100 btn btn-primary" href="{{url}}function/search/add-connection/1/{{cid}}/{{tid}}">Megírom a pályázatot</a>
+			</div>
+			<div class="col-md-6 bottom10">
+				<a class="w100 btn btn-danger confirm" href="{{url}}function/search/add-connection/2/{{cid}}/{{tid}}">Nem írom meg a pályázatot</a>
+			</div>
+		</div>
+	</div>
+	
+	<script>
+		$(".eval a.confirm").click(function(){
+			if (!confirm("Biztos vagy benne?")) return false;
+		});
+	</script>
+	
+</div>

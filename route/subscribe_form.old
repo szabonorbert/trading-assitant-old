@@ -1,0 +1,16 @@
+<?php
+
+	login_required();
+	
+	$_html['content'] = new MagicTemplate(file_get_contents(ROOT . "front/page/subscribe_order_2.html"));
+	
+	$r = array();
+	
+	$r["options"] = "";
+	foreach ($_avaliable_account_types as $at){
+		$r["options"] .= '<option ';
+		if (isset($_GET["account_type"]) && in_array($_GET["account_type"], $_avaliable_account_types) && $_GET["account_type"] == $at) $r["options"] .= 'selected ';
+		$r["options"] .= 'value="' . $at . '">' . $_trans["account_type"][$at] . ' (' . $_prices[$at] . ' ' . $_currency . ')</option>';
+	}
+	
+	$_html['content']($r);

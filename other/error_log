@@ -1,0 +1,1 @@
+[05-May-2022 18:31:31 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.4.29. in /home/binarych1/ta.binarych.com/other/vendor/composer/platform_check.php on line 24

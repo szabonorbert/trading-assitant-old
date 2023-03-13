@@ -1,0 +1,40 @@
+<div class="wide_stuff_container">
+	<div style="background-color:var(--main-dark-ish); border-radius: 5px; min-width: 500px;">
+		<div class="profile" style=" border-color: var(--{{main_color}}-50);">
+			<div class="row">
+				<div class="col-md-6">
+					<div style="color: var(--{{main_color}});" class="discord bold">
+						<i class="fab fa-discord"></i> {{discord_name}}
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align: right;">
+					<span class="enddate {{account_exp_alerted}} {{account_exp_hide}}" data-toggle="tooltip" data-placement="right" title="Az előfizetésed lejárata">{{account_exp_formatted}}</span>
+				</div>
+			</div>
+			
+			<div class="priceindicator">
+				<div class="line"></div>
+				<div class="line2 shimmer" style="width: {{line_percent}}%; background-color:var(--{{main_color}});"></div>
+				
+				<div class="dot betekinto_dot {{betekinto_extraclass}}"><span data-toggle="tooltip" data-placement="bottom" data-html="true" title="részleges H1 táblázat">betekintő</span></div>
+				<div class="dot tanulo_dot {{tanulo_extraclass}}"><span data-toggle="tooltip" data-placement="bottom" data-html="true" title="teljes H1 táblázat és backtest példatár">tanuló</span></div>
+				<div class="dot swingtrader_dot {{swingtrader_extraclass}}"><span data-toggle="tooltip" data-placement="bottom" data-html="true" title="H1 Discord értesítések">swing trader</span></div>
+				<div class="dot daytrader_dot {{daytrader_extraclass}}"><span data-toggle="tooltip" data-placement="bottom" data-html="true" title="H4, M15, M5, M1 táblázatok és a hozzájuk tartozó Discord értesítések">daytrader</span></div>
+				<div class="dot protrader_dot {{protrader_extraclass}}"><span data-toggle="tooltip" data-placement="bottom" data-html="true" title="teljesen egyedi Discord értesítések">pro trader</span></div>
+			</div>
+			
+			<!--
+			<div class="row">
+				<div class="col-md-12">
+					<span class="infotext">Upgrade-jeid:</span>
+					<div class="chips">
+						<span class="chip {{ftmo_active}}" data-toggle="tooltip" data-placement="bottom" data-html="true" title="FTMO instrumentumok"><i class="fas fa-check"></i><i class="fas fa-times"></i> FTMO</span>
+						<span class="chip {{binance_active}}" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Binance Futures instrumentumok"><i class="fas fa-check"></i><i class="fas fa-times"></i> Binance Futures</span>
+						<span class="chip {{screenshot_active}}" data-toggle="tooltip" data-placement="bottom" data-html="true" title="gombnyomásra teljes képernyőképes elemzés"><i class="fas fa-check"></i><i class="fas fa-times"></i> Képernyőképes elemzés</span>
+					</div>
+				</div>
+				
+			</div>-->
+		</div>
+	</div>
+</div>

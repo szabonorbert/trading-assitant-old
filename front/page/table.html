@@ -1,0 +1,43 @@
+<div class="table_page">
+	
+	<!--<div style="text-transform: uppercase; font-size: 16px; font-weight: bold; background-color: #f44336; color: white; padding: 5px 10px; display: inline-block; position: absolute; top: 3px; right: -10px; -moz-transform: rotate(10deg); -webkit-transform: rotate(10deg); -o-transform: rotate(10deg); -ms-transform: rotate(10deg); transform: rotate(10deg); letter-spacing: 1px;">Open Weeks<div style="text-align: center; font-size: 10px; letter-spacing: 0;">2022.05.23. - 06.03.</div></div>-->
+	
+	<!--<div class="logo">
+		<img class="logo" src="{{url}}front/img/market/{{exchange}}.svg" />
+	</div>-->
+	<div class="logo">
+		<div class="lottie_container">
+			<lottie-player class="lottie" src="{{url}}front/img/bars.json" background="transparent" speed="1" loop autoplay></lottie-player>
+		</div>
+		<div class="text">Realtime piacelemzés</div>
+	</div>
+	
+	<div class="timeframe_select">
+		<a class="trans {{1_selected}}" href="{{url}}table/{{exchange}}/1">M1</a>
+		<a class="trans {{5_selected}}" href="{{url}}table/{{exchange}}/5">M5</a>
+		<a class="trans {{15_selected}}" href="{{url}}table/{{exchange}}/15">M15</a>
+		<a class="trans {{60_selected}}" href="{{url}}table/{{exchange}}/60">H1</a>
+		<a class="trans {{240_selected}}" href="{{url}}table/{{exchange}}/240">H4</a>
+	</div>
+	
+	<div class="wide_stuff_container">
+		<table class="exchange_table table">
+		
+			<thead>
+				<tr>
+					<th></th>
+					<th>instrumentum</th>
+					<th>chart iránya</th>
+					<th>állapot</th>
+					<!--<th>előző állapot</th>-->
+					<th><small><small>legutóbbi frissítés</small></small></th>
+				</tr>
+			</thead>
+			<tbody>
+				{{table_data}}
+			</tbody>
+		
+		</table>
+	</div>
+	
+</div>

@@ -1,0 +1,102 @@
+<div class="row justify-content-md-center">
+	<div class="col-md-6">
+		<h2>Rendelésed részletei</h2>
+		<form class="bottom20" id="" >
+			
+			<div class="form-group">
+				<label for="trans_id">Megrendelt csomag:</label>
+				<input type="text" style="border-color: var(--{{account_type}}); color: var(--{{account_type}}); font-weight: bold;" class="form-control form-control-sm" disabled value="{{account_type_translated}}" />
+			</div>
+			<div class="form-group">
+				<label for="trans_id">Amount:</label>
+				<input type="text" class="form-control form-control-sm" disabled value="{{sum}} {{curr}}" />
+				<small class="form-text text-muted">rendelésed összege</small>
+			</div>
+			<div class="form-group">
+				<label for="trans_id">Address:</label>
+				<input type="text" class="form-control form-control-sm" disabled value="{{address}}" />
+				<small class="form-text text-muted">a Trading Assistant aktuális BUSD címe, ide utald az összeget</small>
+			</div>
+			<div class="form-group">
+				<label for="trans_id">Network:</label>
+				<input type="text" class="form-control form-control-sm" disabled value="{{network}}" />
+				<small class="form-text text-muted">hálózat; ezt kell kiválasztanod, hogy az utalásod célba érjen</small>
+			</div>
+		</form>
+		
+		<a id="cancel" style="border-style: solid; border-width: 1px; border-color: rgba(0,0,0,0.5); color: var(--main-dark); background-color: rgba(0,0,0,0.02); border-radius: 5px; font-size: 12px; padding: 5px 10px;" href="{{url}}function/subscribe/cancel" class=""><i class="fa fa-times" style="margin-right: 5px;"></i>rendelés visszavonása, meggondoltam magam</a><br /><br />
+	
+	</div>
+	<div class="col-md-6">
+		
+		<h2>Teendő</h2>
+		
+	
+		<b>Utald el a megadott címre a megadott összeget!</b><br />
+		Amikor kész vagy vele, írd be ide a tranzakció kódját, és nyomd meg a "Mentés" gombot.<br />
+		<div class="form top20" style="font-size: 14px;">Ha nem tudod hogyan kell utalni, nézd meg ezt: <a style="margin-left: 20px; font-size: 12px;" href="#" id="segedlet" class="btn btn-secondary">Segédlet</a></div>
+		<div class="{{hide_for_started}}">
+			<div class="top20" style="background-color: #d2eec6; padding: 10px; ">Jelenleg nincs teendőd, mert a tranzakciós ID-t elmentettük. <b>Az admin hamarosan ellenőrizni fogja az utalást, és a rendszer értesíteni fog téged, figyeld az email címedet!</b> Ha 24 órán belül nem jön email, nézd meg a spam mappádat is!</div>
+		</div>
+		<form style="border-style: solid; border-width: 2px; border-color: var(--swingtrader);" action="{{url}}function/subscribe/save" class="top20" id="" method="post">
+			<div class="form-group">
+				<label for="trans_id">TxID</label>
+				<input type="text" class="form-control form-control-sm" name="trans_id" placeholder="TxID" value="{{trans_id}}" required />
+				<small class="form-text text-muted">a tranzakció azonosítója</small>
+			</div>
+			<input class="btn btn-primary btn-sm w100" type="submit" value="Mentés" />
+		</form>
+		
+		
+		
+	</div>
+</div>
+
+
+<div id="segedlet_content" class="hide">
+	<ol>
+		<li>Nyisd meg a <b>Fiat and Spot</b>-ot a Wallet-en belül.
+		<li>A <b>BUSD</b> sorában kattints a <b>Withdraw</b>-ra.</li>
+		<li><b>Withdraw to New Address</b></li>
+		<li>Ide beírod az alábbi Addresst: <b>{{address}}</b></li>
+		<li>A <b>Network</b> fülön kiválsztod a <b>{{network}}</b> lehetőséget.</li>
+		<li><b>Withdraw amount</b>-hoz beírod az összeget: <b>{{sum}} {{curr}}</b></li>
+		<li>Megerősíted az utalási kérelmedet a Binance-nek.</li>
+	</ol>
+	
+	Dávid leckéi között a <a style="font-size: 12px;" target="_blank" href="https://davidbudai.com/vip/crypto/crypto-vasarlas/" class="btn btn-secondary btn-sm">III. Crypto vásárlás</a> videóban 13:46-tól láthatod a folyamatot.
+	
+	<hr>
+	
+	<img src="{{url}}front/img/busd_binance.png" style="display: block; width: 100%; max-width: 1000px;" />
+	
+	<hr>
+	
+	Az alábbi gombra kattintva a Binance utalási oldalára kerülsz, ahová már csak be kell írnod a fentebb található adatokat:<br /><br />
+	<a style="padding: 10px;" target="_blank" href="https://www.binance.com/en/my/wallet/account/main/withdrawal/crypto/BUSD" class="btn btn-secondary w100">Binance BUSD utalás</a>
+</div>
+
+<script>
+	
+	$(document).ready(function(){
+		$("#segedlet").click(function(){
+			$('#modal .modal-title').html("Segédlet Binance utaláshoz");
+			$('#modal .modal-body').html($("#segedlet_content").html());
+			$('#modal').modal();
+			return false;
+		});
+	});
+	
+	
+	$("#cancel").click(function(){
+		if (confirm("Biztos vagy benne?")){
+			//do nothing
+		} else {
+			return false;
+		}
+	});
+	
+	
+	
+
+</script>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>{{title}}</title>
+	<meta name="description" content="{{description}}" />
+	<meta name="robots" content="{{robots}}" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+	
+	<link rel="apple-touch-icon" sizes="57x57" href="{{folder}}front/img/icon/apple-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="60x60" href="{{folder}}front/img/icon/apple-icon-60x60.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="{{folder}}front/img/icon/apple-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="{{folder}}front/img/icon/apple-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="{{folder}}front/img/icon/apple-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="{{folder}}front/img/icon/apple-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="{{folder}}front/img/icon/apple-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="{{folder}}front/img/icon/apple-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="{{folder}}front/img/icon/apple-icon-180x180.png" />
+	<link rel="icon" type="image/png" sizes="192x192"  href="{{folder}}front/img/icon/android-icon-192x192.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="{{folder}}front/img/icon/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="96x96" href="{{folder}}front/img/icon/favicon-96x96.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="{{folder}}front/img/icon/favicon-16x16.png" />
+	<link rel="manifest" href="{{folder}}front/img/icon/manifest.json" />
+	<meta name="msapplication-TileColor" content="#2a2a2a" />
+	<meta name="msapplication-TileImage" content="{{folder}}front/img/icon/ms-icon-144x144.png" />
+	<meta name="theme-color" content="#2a2a2a" />
+	
+	<meta property="og:type" content="{{og:type}}" />
+	<meta property="og:title" content="{{og:title}}" />
+	<meta property="og:description" content="{{og:description}}" />
+	<meta property="og:url" content="{{og:url}}" />
+	<meta property="og:site_name" content="{{og:site_name}}" />
+	<meta property="og:image" content="{{og:image}}" />
+	
+	<!-- Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+	
+	<!-- Bootstrap 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />-->
+	<!-- Fontawesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+
+	<link rel="stylesheet" href="{{folder}}front/plugin/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="{{folder}}front/plugin/jquery-ui/jquery-ui.min.css" />
+	<link rel="stylesheet" href="{{folder}}front/plugin/jquery-ui/jquery-ui.theme.min.css" />
+	<link rel="stylesheet" href="{{folder}}front/plugin/scrollbar/scrollbar.css" />
+	<link rel="stylesheet" href="{{folder}}front/base.css?v=13" />
+	
+	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+	
+	<script src="{{folder}}front/plugin/jquery/jquery.js"></script>
+	<script src="{{folder}}front/plugin/jquery-ui/jquery-ui.min.js"></script>
+	<script src="{{folder}}front/plugin/jquery-ui/datepicker-hu.js"></script>
+	<script src="{{folder}}front/plugin/scrollbar/scrollbar.min.js"></script>
+	
+	<!--<script src="{{folder}}front/plugin/fireworks/datepicker-hu.js"></script>-->
+	
+	<script src="{{folder}}front/base.js?v=15"></script>
+	
+	<style>
+	:root{
+		--main-color: var(--{{main_color}});
+		--main-color-50: var(--{{main_color}}-50);
+	}
+	</style>
+	
+</head>
+<body data-url="{{url}}" data-folder="{{folder}}" data-current="{{current_url}}">
+	
+	<div id="sidebar">
+		<a id="sidebar_logo" href="{{url}}">
+			<img src="{{url}}front/img/ta_full_sm.png" />
+		</a>
+		
+		<a id="sidebar_logo_2" class="hide" href="{{url}}">
+			<img class="i1" src="{{url}}front/img/ta_onlylogo_sm.png" /> <img class="i2" src="{{url}}front/img/ta_onlytext_sm.png" />
+		</a>
+		
+		
+		
+		<div class="scrollbar-macosx">
+			<div id="menu">
+			
+				<hr>
+				
+				<a class="trans {{admiral_selected}}" href="{{url}}table/admiral"><i class="fa-solid fa-chart-simple"></i> Realtime piacelemzés</a>
+				<!--<a class="trans {{admiral_selected}}" style="font-size: 22px; font-weight: bold; letter-spacing: 2px;" href="{{url}}table/admiral"><i class="fa-solid fa-money-bill-transfer"></i> FOREX</a>-->
+				<!--<a class="trans {{admiral_selected}}" href="{{url}}table/admiral"><img class="trans" src="{{url}}front/img/market/admiral.svg" /></a>-->
+				<!--<a class="trans {{ftmo_selected}}" href="{{url}}table/ftmo"><img class="trans" src="{{url}}front/img/market/ftmo.svg" /></a>
+				<a class="trans {{binance_selected}}" href="{{url}}table/binance"><img class="trans" src="{{url}}front/img/market/binance.svg" /></a>
+				-->
+				<hr>
+				
+				<a class="trans {{backtest_selected}}" href="{{url}}backtest"><i class="fa-solid fa-database"></i> Backtest példatár</a>
+				<!--<a class="trans {{screenshot_selected}}" href="{{url}}screenshot"><i class="fa-solid fa-chart-line"></i> Képernyőképes elemzés</a>-->
+				<a class="trans {{alert_selected}}" href="{{url}}alert"><i class="fa-solid fa-bell"></i> Egyedi értesítések</a>
+				<a class="trans {{help_selected}}" href="{{url}}help"><i class="fa-solid fa-question"></i> Hogyan használd</a>
+				<a class="trans {{admin_selected}} {{noadmin_hide}}" href="{{url}}admin"><i class="fa-solid fa-screwdriver-wrench"></i> Admin</a>
+				
+				<div id="upper_menu_on_mainmenu" class="hide">
+					<a class="trans {{profile_selected}}" href="{{url}}profile"><i class="fa-solid fa-wallet"></i>Profil</a>
+					<a class="trans {{subscribe_selected}}" href="{{url}}subscribe"><i class="fa-solid fa-wallet"></i>Előfizetés</a>
+					<a class="trans {{settings_selected}}" href="{{url}}settings"><i class="fas fa-cogs"></i>Beállítások</a>
+					<a class="trans" href="{{url}}function/user/logout"><i class="fa-solid fa-right-from-bracket"></i>Kijelentkezés</a>
+				</div>
+				
+			</div>
+		</div>
+		<div id="mobile_btn" class="hide"><i class="fa fa-bars" aria-hidden="true"></i></div>
+	</div>
+	
+		
+		
+	<div id="maincontent">
+	
+		<div id="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6" id="profile_md">
+						
+						<div class="profile" style="border-color: var(--{{main_color}}-50);">
+							<div class="row">
+								<div class="col-md-6">
+									<div style="color: var(--{{main_color}});" class="discord bold">
+										<i class="fab fa-discord"></i> {{discord_name}}
+									</div>
+								</div>
+								<div class="col-md-6" style="text-align: right;">
+									<span class="enddate {{account_exp_alerted}} {{account_exp_hide}}" data-toggle="tooltip" data-placement="right" title="Az előfizetésed lejárata">{{account_exp_formatted}}</span>
+								</div>
+							</div>
+							
+							<div class="priceindicator">
+								<div class="line"></div>
+								<div class="line2 shimmer" style="width: {{line_percent}}%; background-color:var(--{{main_color}});"></div>
+								
+								<div class="dot betekinto_dot {{betekinto_extraclass}}"><span data-toggle="tooltip" data-placement="bottom" data-html="true" title="Részleges H1 idősík">betekintő</span></div>
+								<div class="dot tanulo_dot {{tanulo_extraclass}}"><span data-toggle="tooltip" data-placement="bottom" data-html="true" title="Teljes H1 idősík és backtest példatár">tanuló</span></div>
+								<div class="dot swingtrader_dot {{swingtrader_extraclass}}"><span data-toggle="tooltip" data-placement="bottom" data-html="true" title="H4 idősík és H1, H4 Discord értesítések">swing trader</span></div>
+								<div class="dot daytrader_dot {{daytrader_extraclass}}"><span data-toggle="tooltip" data-placement="bottom" data-html="true" title="M15, M5, M1 idősíkok és Discord értesítéseik">daytrader</span></div>
+								<div class="dot protrader_dot {{protrader_extraclass}}"><span data-toggle="tooltip" data-placement="bottom" data-html="true" title="Egyedi Discord értesítések">pro trader</span></div>
+							</div>
+							
+							
+							<!--<div class="row">
+								<div class="col-md-12">
+									<span class="infotext">Upgrade-jeid:</span>
+									<div class="chips">
+										<span class="chip {{ftmo_active}}" data-toggle="tooltip" data-placement="bottom" data-html="true" title="FTMO instrumentumok"><i class="fas fa-check"></i><i class="fas fa-times"></i> FTMO</span>
+										<span class="chip {{binance_active}}" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Binance Futures instrumentumok"><i class="fas fa-check"></i><i class="fas fa-times"></i> Binance Futures</span>
+										<span class="chip {{screenshot_active}}" data-toggle="tooltip" data-placement="bottom" data-html="true" title="gombnyomásra teljes képernyőképes elemzés"><i class="fas fa-check"></i><i class="fas fa-times"></i> Képernyőképes elemzés</span>
+									</div>
+								</div>
+							</div>-->
+							
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div id="upper_menu">
+							<a class="trans {{subscribe_selected}}" href="{{url}}subscribe"><i class="fa-solid fa-wallet"></i>Előfizetés</a>
+							<a class="trans {{settings_selected}}" href="{{url}}settings"><i class="fas fa-cogs"></i>Beállítások</a>
+							<a class="trans" href="{{url}}function/user/logout"><i class="fa-solid fa-right-from-bracket"></i>Kijelentkezés</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+		
+		<div class="container">
+			<div id="content">
+				{{back_btn}}
+				{{session_msg}}
+				{{content}}
+			</div>
+		</div>
+		
+		
+		<div id="copyright">
+			copyright &copy; {{year}} - {{company}} - all rights reserved
+		</div>
+		
+	
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<!-- Modal -->
+	<div class="modal fade bd-example-modal-lg" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLabel">#modal .modal-title</h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		  <div class="modal-body">
+			<!--<div class="search">
+				<input style="margin-bottom: 20px;" class="form-control form-control-sm" id="modalinput" placeholder="Szűrő" />
+			</div>-->
+			<div class="modal-main">
+				TARTALOM
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<!-- Simplemodal -->
+	<div class="modal fade" id="modalsimple" tabindex="-1" role="dialog" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h5 class="modal-title">#modalsimple .modal-title</h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		  <div class="modal-body">
+			<div style="overflow: hidden;" class="modal-main">
+				#modalsimple .modal-body
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<script src="{{folder}}front/plugin/bootstrap/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

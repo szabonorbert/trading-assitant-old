@@ -1,0 +1,499 @@
+[04-Apr-2022 13:02:51 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /home/binarych1/ta.binarych.com/import_backtest_db.php on line 33
+[04-Apr-2022 13:02:59 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /home/binarych1/ta.binarych.com/import_backtest_db.php on line 33
+[04-Apr-2022 13:03:02 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /home/binarych1/ta.binarych.com/import_backtest_db.php on line 33
+[04-Apr-2022 15:03:24 Europe/Budapest] PHP Warning:  require_once(/home/binarych1/ta.binarych.com/../define.php): Failed to open stream: No such file or directory in /home/binarych1/ta.binarych.com/import_backtest_db.php on line 13
+[04-Apr-2022 15:03:24 Europe/Budapest] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binarych1/ta.binarych.com/../define.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/binarych1/ta.binarych.com/import_backtest_db.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/binarych1/ta.binarych.com/import_backtest_db.php on line 13
+[04-Apr-2022 15:03:54 Europe/Budapest] PHP Warning:  file_get_contents(import.txt): Failed to open stream: No such file or directory in /home/binarych1/ta.binarych.com/import_backtest_db.php on line 40
+[04-Apr-2022 15:04:46 Europe/Budapest] PHP Warning:  file_get_contents(import.txt): Failed to open stream: No such file or directory in /home/binarych1/ta.binarych.com/import_backtest_db.php on line 42
+[04-Apr-2022 15:04:57 Europe/Budapest] PHP Warning:  file_get_contents(import.txt): Failed to open stream: No such file or directory in /home/binarych1/ta.binarych.com/import_backtest_db.php on line 42
+[04-Apr-2022 15:40:23 Europe/Budapest] PHP Warning:  Undefined variable $exchange in /home/binarych1/ta.binarych.com/route/backtest.php on line 35
+[04-Apr-2022 15:40:23 Europe/Budapest] PHP Warning:  Undefined variable $exchange in /home/binarych1/ta.binarych.com/route/backtest.php on line 78
+[04-Apr-2022 15:40:25 Europe/Budapest] PHP Warning:  Undefined variable $exchange in /home/binarych1/ta.binarych.com/route/backtest.php on line 35
+[04-Apr-2022 15:40:25 Europe/Budapest] PHP Warning:  Undefined variable $exchange in /home/binarych1/ta.binarych.com/route/backtest.php on line 78
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:03 Europe/Budapest] PHP Warning:  Undefined variable $exchange in /home/binarych1/ta.binarych.com/route/backtest.php on line 89
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 72
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 75
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 80
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "state1" in /home/binarych1/ta.binarych.com/route/backtest.php on line 81
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 82
+[04-Apr-2022 15:43:06 Europe/Budapest] PHP Warning:  Undefined variable $exchange in /home/binarych1/ta.binarych.com/route/backtest.php on line 89
+[04-Apr-2022 15:46:12 Europe/Budapest] PHP Parse error:  syntax error, unexpected double-quoted string "</td>" in /home/binarych1/ta.binarych.com/route/backtest.php on line 58
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 51
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 56
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 51
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 56
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 51
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 56
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 51
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 56
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 51
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 56
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 51
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 56
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 51
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 56
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 51
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 56
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 51
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 56
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 51
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 56
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 51
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 56
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 51
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 56
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 51
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 56
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:46:25 Europe/Budapest] PHP Warning:  Undefined variable $exchange in /home/binarych1/ta.binarych.com/route/backtest.php on line 66
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "state0" in /home/binarych1/ta.binarych.com/route/backtest.php on line 48
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:08 Europe/Budapest] PHP Warning:  Undefined variable $exchange in /home/binarych1/ta.binarych.com/route/backtest.php on line 66
+[04-Apr-2022 15:47:24 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:24 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:24 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:24 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:24 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:24 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:24 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:24 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:24 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:24 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:24 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:24 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:24 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:24 Europe/Budapest] PHP Warning:  Undefined variable $exchange in /home/binarych1/ta.binarych.com/route/backtest.php on line 66
+[04-Apr-2022 15:47:32 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:32 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:32 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:32 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:32 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:32 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:32 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:32 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:32 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:32 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:32 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:32 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:32 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:32 Europe/Budapest] PHP Warning:  Undefined variable $exchange in /home/binarych1/ta.binarych.com/route/backtest.php on line 66
+[04-Apr-2022 15:47:33 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:33 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:33 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:33 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:33 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:33 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:33 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:33 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:33 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:33 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:33 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:33 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:33 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:33 Europe/Budapest] PHP Warning:  Undefined variable $exchange in /home/binarych1/ta.binarych.com/route/backtest.php on line 66
+[04-Apr-2022 15:47:46 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:46 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:46 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:46 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:46 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:46 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:46 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:46 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:46 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:46 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:46 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:46 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:46 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:47:46 Europe/Budapest] PHP Warning:  Undefined variable $exchange in /home/binarych1/ta.binarych.com/route/backtest.php on line 66
+[04-Apr-2022 15:49:43 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:49:43 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:49:43 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:49:43 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:49:43 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:49:43 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:49:43 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:49:43 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:49:43 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:49:43 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:49:43 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:49:43 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:49:43 Europe/Budapest] PHP Warning:  Undefined array key "last_update" in /home/binarych1/ta.binarych.com/route/backtest.php on line 59
+[04-Apr-2022 15:49:43 Europe/Budapest] PHP Warning:  Undefined variable $exchange in /home/binarych1/ta.binarych.com/route/backtest.php on line 66
+[04-Apr-2022 15:49:54 Europe/Budapest] PHP Warning:  Undefined variable $exchange in /home/binarych1/ta.binarych.com/route/backtest.php on line 66
+[04-Apr-2022 16:19:21 Europe/Budapest] PHP Parse error:  Unmatched ')' in /home/binarych1/ta.binarych.com/route/backtest.php on line 34
+[04-Apr-2022 16:28:23 Europe/Budapest] PHP Warning:  Array to string conversion in /home/binarych1/ta.binarych.com/route/backtest.php on line 99
+[04-Apr-2022 16:28:23 Europe/Budapest] PHP Warning:  Array to string conversion in /home/binarych1/ta.binarych.com/route/backtest.php on line 101
+[04-Apr-2022 16:34:01 Europe/Budapest] PHP Warning:  Undefined array key "state_select" in /home/binarych1/ta.binarych.com/route/backtest.php on line 91
+[04-Apr-2022 17:17:01 Europe/Budapest] PHP Parse error:  syntax error, unexpected variable "$data" in /home/binarych1/ta.binarych.com/route/function/img.php on line 20
+[04-Apr-2022 17:17:20 Europe/Budapest] PHP Warning:  Undefined array key "ver" in /home/binarych1/ta.binarych.com/route/function/img.php on line 28
+[04-Apr-2022 17:17:20 Europe/Budapest] PHP Warning:  Array to string conversion in /home/binarych1/ta.binarych.com/route/function/img.php on line 39
+[04-Apr-2022 17:17:20 Europe/Budapest] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /home/binarych1/ta.binarych.com/route/function/img.php:39
+Stack trace:
+#0 /home/binarych1/ta.binarych.com/route/function/img.php(39): implode()
+#1 /home/binarych1/ta.binarych.com/index.php(28): require_once('/home/binarych1...')
+#2 {main}
+  thrown in /home/binarych1/ta.binarych.com/route/function/img.php on line 39
+[04-Apr-2022 17:17:27 Europe/Budapest] PHP Warning:  Array to string conversion in /home/binarych1/ta.binarych.com/route/function/img.php on line 39
+[04-Apr-2022 17:17:27 Europe/Budapest] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /home/binarych1/ta.binarych.com/route/function/img.php:39
+Stack trace:
+#0 /home/binarych1/ta.binarych.com/route/function/img.php(39): implode()
+#1 /home/binarych1/ta.binarych.com/index.php(28): require_once('/home/binarych1...')
+#2 {main}
+  thrown in /home/binarych1/ta.binarych.com/route/function/img.php on line 39
+[23-Apr-2022 20:08:45 Europe/Budapest] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[23-Apr-2022 20:08:45 Europe/Budapest] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcGPp4eAAAAAI5jZSwaCTvsHBFhHHnMEp_9_mmK&amp;remoteip=78.92.195.222&amp;response=03AGdBq24V_vg6EHdjHnROBu-fI26I0SvgbHItTffHllo_V6fdzl878mXUDs_zdlYn6PJpGErORKYRfvUt65gogjWKQ92FSoUubML23mp8EsvRNINnHk8j2LR4UsuIISnnKcHYCgZm3pgQ2jFbpVDt9JTINxx3LnviffZHzLZwGZ6i5lKX5ij4FkekTctRDsmxk81zxYhrol8BMhcluQ1tBudmJ_E01Ody3Ph1gYKJiSsxy8YgsWaZXhv9QtFH4lOryGz7-t3BgP_35P3efCTFW7Whn6S-Up3Z-Tvi2zR9rveYCmu8NERU9I99a4UU33OiFbsJiZLwBzJQxegzK6V_WUgDEucUQWY3FzzvlEI4_bDiUTE3S2gmHflAalz4d-kxdwYT8HzTtLtCF-8Hk72SQgDKeSwd1ECLdSib2Af8p6tOzv38WK00lwPaX4c8JnmLqwOlFxTH3_8CtiHqLknx539diaXgK5RIUy6WswtkTwXWR2p-UThEkmk0epmjHY5YJVoczAHR1H0J): Failed to open stream: no suitable wrapper could be found in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[23-Apr-2022 20:08:45 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/binarych1/ta.binarych.com/engine/recaptcha.class.php:41) in /home/binarych1/ta.binarych.com/engine/functions.php on line 885
+[23-Apr-2022 20:09:06 Europe/Budapest] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[23-Apr-2022 20:09:06 Europe/Budapest] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcGPp4eAAAAAI5jZSwaCTvsHBFhHHnMEp_9_mmK&amp;remoteip=78.92.195.222&amp;response=03AGdBq24V_vg6EHdjHnROBu-fI26I0SvgbHItTffHllo_V6fdzl878mXUDs_zdlYn6PJpGErORKYRfvUt65gogjWKQ92FSoUubML23mp8EsvRNINnHk8j2LR4UsuIISnnKcHYCgZm3pgQ2jFbpVDt9JTINxx3LnviffZHzLZwGZ6i5lKX5ij4FkekTctRDsmxk81zxYhrol8BMhcluQ1tBudmJ_E01Ody3Ph1gYKJiSsxy8YgsWaZXhv9QtFH4lOryGz7-t3BgP_35P3efCTFW7Whn6S-Up3Z-Tvi2zR9rveYCmu8NERU9I99a4UU33OiFbsJiZLwBzJQxegzK6V_WUgDEucUQWY3FzzvlEI4_bDiUTE3S2gmHflAalz4d-kxdwYT8HzTtLtCF-8Hk72SQgDKeSwd1ECLdSib2Af8p6tOzv38WK00lwPaX4c8JnmLqwOlFxTH3_8CtiHqLknx539diaXgK5RIUy6WswtkTwXWR2p-UThEkmk0epmjHY5YJVoczAHR1H0J): Failed to open stream: no suitable wrapper could be found in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[23-Apr-2022 20:09:06 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/binarych1/ta.binarych.com/engine/recaptcha.class.php:41) in /home/binarych1/ta.binarych.com/engine/functions.php on line 885
+[23-Apr-2022 20:10:21 Europe/Budapest] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[23-Apr-2022 20:10:21 Europe/Budapest] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcGPp4eAAAAAI5jZSwaCTvsHBFhHHnMEp_9_mmK&amp;remoteip=78.92.195.222&amp;response=03AGdBq24V_vg6EHdjHnROBu-fI26I0SvgbHItTffHllo_V6fdzl878mXUDs_zdlYn6PJpGErORKYRfvUt65gogjWKQ92FSoUubML23mp8EsvRNINnHk8j2LR4UsuIISnnKcHYCgZm3pgQ2jFbpVDt9JTINxx3LnviffZHzLZwGZ6i5lKX5ij4FkekTctRDsmxk81zxYhrol8BMhcluQ1tBudmJ_E01Ody3Ph1gYKJiSsxy8YgsWaZXhv9QtFH4lOryGz7-t3BgP_35P3efCTFW7Whn6S-Up3Z-Tvi2zR9rveYCmu8NERU9I99a4UU33OiFbsJiZLwBzJQxegzK6V_WUgDEucUQWY3FzzvlEI4_bDiUTE3S2gmHflAalz4d-kxdwYT8HzTtLtCF-8Hk72SQgDKeSwd1ECLdSib2Af8p6tOzv38WK00lwPaX4c8JnmLqwOlFxTH3_8CtiHqLknx539diaXgK5RIUy6WswtkTwXWR2p-UThEkmk0epmjHY5YJVoczAHR1H0J): Failed to open stream: no suitable wrapper could be found in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[23-Apr-2022 20:10:21 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/binarych1/ta.binarych.com/engine/recaptcha.class.php:41) in /home/binarych1/ta.binarych.com/engine/functions.php on line 885
+[23-Apr-2022 20:10:24 Europe/Budapest] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[23-Apr-2022 20:10:24 Europe/Budapest] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcGPp4eAAAAAI5jZSwaCTvsHBFhHHnMEp_9_mmK&amp;remoteip=78.92.195.222&amp;response=03AGdBq24V_vg6EHdjHnROBu-fI26I0SvgbHItTffHllo_V6fdzl878mXUDs_zdlYn6PJpGErORKYRfvUt65gogjWKQ92FSoUubML23mp8EsvRNINnHk8j2LR4UsuIISnnKcHYCgZm3pgQ2jFbpVDt9JTINxx3LnviffZHzLZwGZ6i5lKX5ij4FkekTctRDsmxk81zxYhrol8BMhcluQ1tBudmJ_E01Ody3Ph1gYKJiSsxy8YgsWaZXhv9QtFH4lOryGz7-t3BgP_35P3efCTFW7Whn6S-Up3Z-Tvi2zR9rveYCmu8NERU9I99a4UU33OiFbsJiZLwBzJQxegzK6V_WUgDEucUQWY3FzzvlEI4_bDiUTE3S2gmHflAalz4d-kxdwYT8HzTtLtCF-8Hk72SQgDKeSwd1ECLdSib2Af8p6tOzv38WK00lwPaX4c8JnmLqwOlFxTH3_8CtiHqLknx539diaXgK5RIUy6WswtkTwXWR2p-UThEkmk0epmjHY5YJVoczAHR1H0J): Failed to open stream: no suitable wrapper could be found in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[23-Apr-2022 20:10:24 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/binarych1/ta.binarych.com/engine/recaptcha.class.php:41) in /home/binarych1/ta.binarych.com/engine/functions.php on line 885
+[23-Apr-2022 20:10:52 Europe/Budapest] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[23-Apr-2022 20:10:52 Europe/Budapest] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcGPp4eAAAAAI5jZSwaCTvsHBFhHHnMEp_9_mmK&amp;remoteip=78.92.195.222&amp;response=03AGdBq24V_vg6EHdjHnROBu-fI26I0SvgbHItTffHllo_V6fdzl878mXUDs_zdlYn6PJpGErORKYRfvUt65gogjWKQ92FSoUubML23mp8EsvRNINnHk8j2LR4UsuIISnnKcHYCgZm3pgQ2jFbpVDt9JTINxx3LnviffZHzLZwGZ6i5lKX5ij4FkekTctRDsmxk81zxYhrol8BMhcluQ1tBudmJ_E01Ody3Ph1gYKJiSsxy8YgsWaZXhv9QtFH4lOryGz7-t3BgP_35P3efCTFW7Whn6S-Up3Z-Tvi2zR9rveYCmu8NERU9I99a4UU33OiFbsJiZLwBzJQxegzK6V_WUgDEucUQWY3FzzvlEI4_bDiUTE3S2gmHflAalz4d-kxdwYT8HzTtLtCF-8Hk72SQgDKeSwd1ECLdSib2Af8p6tOzv38WK00lwPaX4c8JnmLqwOlFxTH3_8CtiHqLknx539diaXgK5RIUy6WswtkTwXWR2p-UThEkmk0epmjHY5YJVoczAHR1H0J): Failed to open stream: no suitable wrapper could be found in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[23-Apr-2022 20:10:52 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/binarych1/ta.binarych.com/engine/recaptcha.class.php:41) in /home/binarych1/ta.binarych.com/engine/functions.php on line 885
+[23-Apr-2022 20:10:54 Europe/Budapest] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[23-Apr-2022 20:10:54 Europe/Budapest] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcGPp4eAAAAAI5jZSwaCTvsHBFhHHnMEp_9_mmK&amp;remoteip=78.92.195.222&amp;response=03AGdBq24V_vg6EHdjHnROBu-fI26I0SvgbHItTffHllo_V6fdzl878mXUDs_zdlYn6PJpGErORKYRfvUt65gogjWKQ92FSoUubML23mp8EsvRNINnHk8j2LR4UsuIISnnKcHYCgZm3pgQ2jFbpVDt9JTINxx3LnviffZHzLZwGZ6i5lKX5ij4FkekTctRDsmxk81zxYhrol8BMhcluQ1tBudmJ_E01Ody3Ph1gYKJiSsxy8YgsWaZXhv9QtFH4lOryGz7-t3BgP_35P3efCTFW7Whn6S-Up3Z-Tvi2zR9rveYCmu8NERU9I99a4UU33OiFbsJiZLwBzJQxegzK6V_WUgDEucUQWY3FzzvlEI4_bDiUTE3S2gmHflAalz4d-kxdwYT8HzTtLtCF-8Hk72SQgDKeSwd1ECLdSib2Af8p6tOzv38WK00lwPaX4c8JnmLqwOlFxTH3_8CtiHqLknx539diaXgK5RIUy6WswtkTwXWR2p-UThEkmk0epmjHY5YJVoczAHR1H0J): Failed to open stream: no suitable wrapper could be found in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[23-Apr-2022 20:10:54 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/binarych1/ta.binarych.com/engine/recaptcha.class.php:41) in /home/binarych1/ta.binarych.com/engine/functions.php on line 885
+[23-Apr-2022 20:12:16 Europe/Budapest] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[23-Apr-2022 20:12:16 Europe/Budapest] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcGPp4eAAAAAI5jZSwaCTvsHBFhHHnMEp_9_mmK&amp;remoteip=78.92.195.222&amp;response=03AGdBq24V_vg6EHdjHnROBu-fI26I0SvgbHItTffHllo_V6fdzl878mXUDs_zdlYn6PJpGErORKYRfvUt65gogjWKQ92FSoUubML23mp8EsvRNINnHk8j2LR4UsuIISnnKcHYCgZm3pgQ2jFbpVDt9JTINxx3LnviffZHzLZwGZ6i5lKX5ij4FkekTctRDsmxk81zxYhrol8BMhcluQ1tBudmJ_E01Ody3Ph1gYKJiSsxy8YgsWaZXhv9QtFH4lOryGz7-t3BgP_35P3efCTFW7Whn6S-Up3Z-Tvi2zR9rveYCmu8NERU9I99a4UU33OiFbsJiZLwBzJQxegzK6V_WUgDEucUQWY3FzzvlEI4_bDiUTE3S2gmHflAalz4d-kxdwYT8HzTtLtCF-8Hk72SQgDKeSwd1ECLdSib2Af8p6tOzv38WK00lwPaX4c8JnmLqwOlFxTH3_8CtiHqLknx539diaXgK5RIUy6WswtkTwXWR2p-UThEkmk0epmjHY5YJVoczAHR1H0J): Failed to open stream: no suitable wrapper could be found in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[23-Apr-2022 20:12:16 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/binarych1/ta.binarych.com/engine/recaptcha.class.php:41) in /home/binarych1/ta.binarych.com/engine/functions.php on line 885
+[23-Apr-2022 20:12:31 Europe/Budapest] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[23-Apr-2022 20:12:31 Europe/Budapest] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcGPp4eAAAAAI5jZSwaCTvsHBFhHHnMEp_9_mmK&amp;remoteip=78.92.195.222&amp;response=03AGdBq26MXWN3a9yPYKFPczdABQDxiTN7SMSIXztzlvevBKHnCzrd5cPxxmjxDVgcM8VAdF8GJsyOZRYoTLtl_IRzl-seDSv-WxjTmr7nYFdV95VYv6FUGAR99wDQDEHoSQrkbIB97gyscsQCOXGjhaJTGp7jILTAmM1TVtM6TyvUKZ5khjr-QWmsM3Wi19nFLr5AHbL9LJJewx4KuOt70ee4R6_EvfbS5rbVe_Ui452MG-qRcTF7Jzsdz-0-2yfiIA5nbQnU6YkSH3w4VaYZbEAvTFdlkWlw8HDHv-8x8E2Y-eu67QNfw7WalYa31nZvxARxyXFrpX5edcCm2S-HBwbatoAVvuTMCZ8eGiFsvsSzDtB-OcIDd3leTkV_gyjIiHmMQe7PeVivovjyvvGrtMAbfK43vrDRqrRxxNEkZOTSkR2jRanxTPQW_41Na9hMlvWYNdW81RrAPZ3wI8oAeZ0B61CY10XsnwJX-KrZytGRlFXde0ZaeGg): Failed to open stream: no suitable wrapper could be found in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[23-Apr-2022 20:12:31 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/binarych1/ta.binarych.com/engine/recaptcha.class.php:41) in /home/binarych1/ta.binarych.com/engine/functions.php on line 885
+[25-Apr-2022 18:29:26 Europe/Budapest] PHP Notice:  Undefined index: last_update_fast in /home/binarych1/ta.binarych.com/route/table.php on line 42
+[25-Apr-2022 18:29:26 Europe/Budapest] PHP Notice:  Undefined index: last_update_slow in /home/binarych1/ta.binarych.com/route/table.php on line 43
+[25-Apr-2022 18:29:26 Europe/Budapest] PHP Notice:  Undefined index: last_update_fast in /home/binarych1/ta.binarych.com/route/table.php on line 47
+[25-Apr-2022 18:29:26 Europe/Budapest] PHP Notice:  Undefined index: last_update_slow in /home/binarych1/ta.binarych.com/route/table.php on line 48
+[25-Apr-2022 18:30:12 Europe/Budapest] PHP Notice:  Undefined index: last_update_fast in /home/binarych1/ta.binarych.com/route/table.php on line 51
+[25-Apr-2022 18:30:12 Europe/Budapest] PHP Notice:  Undefined index: last_update_slow in /home/binarych1/ta.binarych.com/route/table.php on line 52
+[29-Apr-2022 10:32:01 Europe/Budapest] PHP Parse error:  syntax error, unexpected '}' in /home/binarych1/ta.binarych.com/route/function/api.php on line 92
+[29-Apr-2022 10:33:02 Europe/Budapest] PHP Parse error:  syntax error, unexpected '}' in /home/binarych1/ta.binarych.com/route/function/api.php on line 92
+[29-Apr-2022 10:34:01 Europe/Budapest] PHP Parse error:  syntax error, unexpected '}' in /home/binarych1/ta.binarych.com/route/function/api.php on line 92
+[29-Apr-2022 10:34:15 Europe/Budapest] PHP Parse error:  syntax error, unexpected '}' in /home/binarych1/ta.binarych.com/route/function/api.php on line 92
+[29-Apr-2022 11:03:02 Europe/Budapest] PHP Parse error:  syntax error, unexpected '$_trans' (T_VARIABLE) in /home/binarych1/ta.binarych.com/route/function/api.php on line 153
+[29-Apr-2022 11:03:05 Europe/Budapest] PHP Parse error:  syntax error, unexpected '$_trans' (T_VARIABLE) in /home/binarych1/ta.binarych.com/route/function/api.php on line 153
+[04-May-2022 20:27:43 Europe/Budapest] PHP Warning:  Illegal string offset 'name' in /home/binarych1/ta.binarych.com/engine/functions.php on line 856
+[04-May-2022 20:27:43 Europe/Budapest] PHP Warning:  Illegal string offset 'mail' in /home/binarych1/ta.binarych.com/engine/functions.php on line 856
+[04-May-2022 20:27:43 Europe/Budapest] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\Exception' not found in /home/binarych1/ta.binarych.com/engine/phpmailer.class.php:1410
+Stack trace:
+#0 /home/binarych1/ta.binarych.com/engine/phpmailer.class.php(1348): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/binarych1/ta.binarych.com/engine/functions.php(839): PHPMailer\PHPMailer\PHPMailer->send()
+#2 /home/binarych1/ta.binarych.com/engine/functions.php(856): systemmail('S', 'S', '\xC3\x9Aj kifizet\xC3\xA9s:...', 'Szia admin!<br ...')
+#3 /home/binarych1/ta.binarych.com/route/function/subscribe.php(135): adminmail('\xC3\x9Aj kifizet\xC3\xA9s:...', 'Szia admin!<br ...', Array)
+#4 /home/binarych1/ta.binarych.com/index.php(28): require_once('/home/binarych1...')
+#5 {main}
+  thrown in /home/binarych1/ta.binarych.com/engine/phpmailer.class.php on line 1410
+[05-May-2022 20:33:43 Europe/Budapest] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:33:43 Europe/Budapest] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcGPp4eAAAAAI5jZSwaCTvsHBFhHHnMEp_9_mmK&amp;remoteip=31.46.27.15&amp;response=03AGdBq25TpzLNF75t6O8VUr-1yOg8T1Hptc7PWIZ3iw3lql2D2i3k_foGESbhGFPgBS0nwowjFjx-XOIFza2Ix160lQTZGYqFer2TmKCZLmKo-pW3tGjN6ivoRRohSbiyrOIDzvZF73rB5Y3Ho8JCORhpndhC8pabiz_qcj1-Woamx5sQD42gwPRIRkdlLHZ_c8f5_fT14mnSpwaFei0CIkbv35gDGaDU2d3Cp7zykEthQwaqGgOOxVhPW2fspWiA89nwf-lx-iJ0CWTexkByW_Z8Gk7uj8jUe6XUxDW1ffrIktAdXYEdwQrm0ABoRu8r90uWuRrSr8wSv4bnLdvRviklFL8ENz5x7SKJmrJtJqeen0Tn9C7PxMX6FVeadTkaSROrkWxhTLJBJ7uNyVHQ3YDZbq2-txSR89RkP1WwXEW4D_JgMdQhpMk): Failed to open stream: no suitable wrapper could be found in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:33:43 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/binarych1/ta.binarych.com/engine/recaptcha.class.php:41) in /home/binarych1/ta.binarych.com/engine/functions.php on line 883
+[05-May-2022 20:35:12 Europe/Budapest] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:35:12 Europe/Budapest] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcGPp4eAAAAAI5jZSwaCTvsHBFhHHnMEp_9_mmK&amp;remoteip=31.46.27.15&amp;response=03AGdBq25TpzLNF75t6O8VUr-1yOg8T1Hptc7PWIZ3iw3lql2D2i3k_foGESbhGFPgBS0nwowjFjx-XOIFza2Ix160lQTZGYqFer2TmKCZLmKo-pW3tGjN6ivoRRohSbiyrOIDzvZF73rB5Y3Ho8JCORhpndhC8pabiz_qcj1-Woamx5sQD42gwPRIRkdlLHZ_c8f5_fT14mnSpwaFei0CIkbv35gDGaDU2d3Cp7zykEthQwaqGgOOxVhPW2fspWiA89nwf-lx-iJ0CWTexkByW_Z8Gk7uj8jUe6XUxDW1ffrIktAdXYEdwQrm0ABoRu8r90uWuRrSr8wSv4bnLdvRviklFL8ENz5x7SKJmrJtJqeen0Tn9C7PxMX6FVeadTkaSROrkWxhTLJBJ7uNyVHQ3YDZbq2-txSR89RkP1WwXEW4D_JgMdQhpMk): Failed to open stream: no suitable wrapper could be found in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:35:12 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/binarych1/ta.binarych.com/engine/recaptcha.class.php:41) in /home/binarych1/ta.binarych.com/engine/functions.php on line 883
+[05-May-2022 20:35:15 Europe/Budapest] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:35:15 Europe/Budapest] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcGPp4eAAAAAI5jZSwaCTvsHBFhHHnMEp_9_mmK&amp;remoteip=31.46.27.15&amp;response=03AGdBq25TpzLNF75t6O8VUr-1yOg8T1Hptc7PWIZ3iw3lql2D2i3k_foGESbhGFPgBS0nwowjFjx-XOIFza2Ix160lQTZGYqFer2TmKCZLmKo-pW3tGjN6ivoRRohSbiyrOIDzvZF73rB5Y3Ho8JCORhpndhC8pabiz_qcj1-Woamx5sQD42gwPRIRkdlLHZ_c8f5_fT14mnSpwaFei0CIkbv35gDGaDU2d3Cp7zykEthQwaqGgOOxVhPW2fspWiA89nwf-lx-iJ0CWTexkByW_Z8Gk7uj8jUe6XUxDW1ffrIktAdXYEdwQrm0ABoRu8r90uWuRrSr8wSv4bnLdvRviklFL8ENz5x7SKJmrJtJqeen0Tn9C7PxMX6FVeadTkaSROrkWxhTLJBJ7uNyVHQ3YDZbq2-txSR89RkP1WwXEW4D_JgMdQhpMk): Failed to open stream: no suitable wrapper could be found in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:35:15 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/binarych1/ta.binarych.com/engine/recaptcha.class.php:41) in /home/binarych1/ta.binarych.com/engine/functions.php on line 883
+[05-May-2022 20:35:19 Europe/Budapest] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:35:19 Europe/Budapest] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcGPp4eAAAAAI5jZSwaCTvsHBFhHHnMEp_9_mmK&amp;remoteip=31.46.27.15&amp;response=03AGdBq24tgqMj76oruwKi_pdUuQSk4xqaxkq8QUaMVmLZnxC2npQoZMqwX8HoLQHr_bwUEEDGSYfZdCvEkFaBO7yVurt6doyr_3XbOHDu0mmzb-IWGYxW0zfJ-UkZdnEAHnUxcpW6KGaLpy51NIXySPeNYzzZrfO4o1E6jqoQyTTYMdr8QI5mvsg5Cc52yHNqjQSxsxdvQtFIPuPYdlfKUXxb5EJ7hs_koEzofwkDCQOzWHeeVEo5wfwHBtkrksjSogALMLQgfli-gORuuAlV6zl2tP-2vXNXU0g3aUYGbc3pvv-O95Wxsb992ezUtOk5smINhk38altaZrl6VlnmbL-Gk2Zq3NyeU0UbdbUvKe6P74kpP6D2MfMQchBtUkLHxgl7nGW94oPGlfOmu69u8FRSyqOMV6kxS9CaByigu1WWaKwBYyeYdFM): Failed to open stream: no suitable wrapper could be found in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:35:19 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/binarych1/ta.binarych.com/engine/recaptcha.class.php:41) in /home/binarych1/ta.binarych.com/engine/functions.php on line 883
+[05-May-2022 20:36:07 Europe/Budapest] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:36:07 Europe/Budapest] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcGPp4eAAAAAI5jZSwaCTvsHBFhHHnMEp_9_mmK&amp;remoteip=31.46.27.15&amp;response=03AGdBq24tgqMj76oruwKi_pdUuQSk4xqaxkq8QUaMVmLZnxC2npQoZMqwX8HoLQHr_bwUEEDGSYfZdCvEkFaBO7yVurt6doyr_3XbOHDu0mmzb-IWGYxW0zfJ-UkZdnEAHnUxcpW6KGaLpy51NIXySPeNYzzZrfO4o1E6jqoQyTTYMdr8QI5mvsg5Cc52yHNqjQSxsxdvQtFIPuPYdlfKUXxb5EJ7hs_koEzofwkDCQOzWHeeVEo5wfwHBtkrksjSogALMLQgfli-gORuuAlV6zl2tP-2vXNXU0g3aUYGbc3pvv-O95Wxsb992ezUtOk5smINhk38altaZrl6VlnmbL-Gk2Zq3NyeU0UbdbUvKe6P74kpP6D2MfMQchBtUkLHxgl7nGW94oPGlfOmu69u8FRSyqOMV6kxS9CaByigu1WWaKwBYyeYdFM): Failed to open stream: no suitable wrapper could be found in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:36:07 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/binarych1/ta.binarych.com/engine/recaptcha.class.php:41) in /home/binarych1/ta.binarych.com/engine/functions.php on line 883
+[05-May-2022 20:38:15 Europe/Budapest] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:38:15 Europe/Budapest] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcGPp4eAAAAAI5jZSwaCTvsHBFhHHnMEp_9_mmK&amp;remoteip=31.46.27.15&amp;response=03AGdBq24tgqMj76oruwKi_pdUuQSk4xqaxkq8QUaMVmLZnxC2npQoZMqwX8HoLQHr_bwUEEDGSYfZdCvEkFaBO7yVurt6doyr_3XbOHDu0mmzb-IWGYxW0zfJ-UkZdnEAHnUxcpW6KGaLpy51NIXySPeNYzzZrfO4o1E6jqoQyTTYMdr8QI5mvsg5Cc52yHNqjQSxsxdvQtFIPuPYdlfKUXxb5EJ7hs_koEzofwkDCQOzWHeeVEo5wfwHBtkrksjSogALMLQgfli-gORuuAlV6zl2tP-2vXNXU0g3aUYGbc3pvv-O95Wxsb992ezUtOk5smINhk38altaZrl6VlnmbL-Gk2Zq3NyeU0UbdbUvKe6P74kpP6D2MfMQchBtUkLHxgl7nGW94oPGlfOmu69u8FRSyqOMV6kxS9CaByigu1WWaKwBYyeYdFM): Failed to open stream: no suitable wrapper could be found in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:38:15 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/binarych1/ta.binarych.com/engine/recaptcha.class.php:41) in /home/binarych1/ta.binarych.com/engine/functions.php on line 883
+[05-May-2022 20:38:57 Europe/Budapest] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:38:57 Europe/Budapest] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcGPp4eAAAAAI5jZSwaCTvsHBFhHHnMEp_9_mmK&amp;remoteip=31.46.27.15&amp;response=03AGdBq24tgqMj76oruwKi_pdUuQSk4xqaxkq8QUaMVmLZnxC2npQoZMqwX8HoLQHr_bwUEEDGSYfZdCvEkFaBO7yVurt6doyr_3XbOHDu0mmzb-IWGYxW0zfJ-UkZdnEAHnUxcpW6KGaLpy51NIXySPeNYzzZrfO4o1E6jqoQyTTYMdr8QI5mvsg5Cc52yHNqjQSxsxdvQtFIPuPYdlfKUXxb5EJ7hs_koEzofwkDCQOzWHeeVEo5wfwHBtkrksjSogALMLQgfli-gORuuAlV6zl2tP-2vXNXU0g3aUYGbc3pvv-O95Wxsb992ezUtOk5smINhk38altaZrl6VlnmbL-Gk2Zq3NyeU0UbdbUvKe6P74kpP6D2MfMQchBtUkLHxgl7nGW94oPGlfOmu69u8FRSyqOMV6kxS9CaByigu1WWaKwBYyeYdFM): Failed to open stream: no suitable wrapper could be found in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:38:57 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/binarych1/ta.binarych.com/engine/recaptcha.class.php:41) in /home/binarych1/ta.binarych.com/engine/functions.php on line 883
+[05-May-2022 20:39:00 Europe/Budapest] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:39:00 Europe/Budapest] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcGPp4eAAAAAI5jZSwaCTvsHBFhHHnMEp_9_mmK&amp;remoteip=31.46.27.15&amp;response=03AGdBq24tgqMj76oruwKi_pdUuQSk4xqaxkq8QUaMVmLZnxC2npQoZMqwX8HoLQHr_bwUEEDGSYfZdCvEkFaBO7yVurt6doyr_3XbOHDu0mmzb-IWGYxW0zfJ-UkZdnEAHnUxcpW6KGaLpy51NIXySPeNYzzZrfO4o1E6jqoQyTTYMdr8QI5mvsg5Cc52yHNqjQSxsxdvQtFIPuPYdlfKUXxb5EJ7hs_koEzofwkDCQOzWHeeVEo5wfwHBtkrksjSogALMLQgfli-gORuuAlV6zl2tP-2vXNXU0g3aUYGbc3pvv-O95Wxsb992ezUtOk5smINhk38altaZrl6VlnmbL-Gk2Zq3NyeU0UbdbUvKe6P74kpP6D2MfMQchBtUkLHxgl7nGW94oPGlfOmu69u8FRSyqOMV6kxS9CaByigu1WWaKwBYyeYdFM): Failed to open stream: no suitable wrapper could be found in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:39:00 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/binarych1/ta.binarych.com/engine/recaptcha.class.php:41) in /home/binarych1/ta.binarych.com/engine/functions.php on line 883
+[05-May-2022 20:39:08 Europe/Budapest] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:39:08 Europe/Budapest] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcGPp4eAAAAAI5jZSwaCTvsHBFhHHnMEp_9_mmK&amp;remoteip=31.46.27.15&amp;response=03AGdBq26aL5R2FcrwTIV0UY3zt2v1Mo43wVNgz6alQqiAebVhEVLbX6rsOQQtpwfkBoFdTUXvjqF-1a6h11r7Y2FNh-hgtCJLaHY3AfnGxlupGslJyhv5SY107iNuMl0hEMWy7A5qTPNeZrikacGJXFWMawhoXdItrDfLT1rQDf4ahqnq1IRBuAFaahh73xZb4Tx7X2M5JhhsT0HzPFY5E1fqf_FpCFRAsGbbfyiholZGjn5uD8rmNJD-d-6XQkXJ1UCnWUTymoMNPlZG-9v3lewPUzEFccJrj6ed4Ob4VWjNj9r2aB7kBUvN213M24gJHPMa62uDqHJ6oy1CZ2FXxrTU_v2CzHqMAZy33kMWvlVl9r3aca80Kv5jB0c2vlQ1PU64mdyZF4JIFW522lC6wY7onGqm7HfHQbm0U9vrETw415SmKFb_fQU): Failed to open stream: no suitable wrapper could be found in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:39:08 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/binarych1/ta.binarych.com/engine/recaptcha.class.php:41) in /home/binarych1/ta.binarych.com/engine/functions.php on line 883
+[05-May-2022 20:43:07 Europe/Budapest] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:43:07 Europe/Budapest] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcGPp4eAAAAAI5jZSwaCTvsHBFhHHnMEp_9_mmK&amp;remoteip=31.46.27.15&amp;response=03AGdBq26aL5R2FcrwTIV0UY3zt2v1Mo43wVNgz6alQqiAebVhEVLbX6rsOQQtpwfkBoFdTUXvjqF-1a6h11r7Y2FNh-hgtCJLaHY3AfnGxlupGslJyhv5SY107iNuMl0hEMWy7A5qTPNeZrikacGJXFWMawhoXdItrDfLT1rQDf4ahqnq1IRBuAFaahh73xZb4Tx7X2M5JhhsT0HzPFY5E1fqf_FpCFRAsGbbfyiholZGjn5uD8rmNJD-d-6XQkXJ1UCnWUTymoMNPlZG-9v3lewPUzEFccJrj6ed4Ob4VWjNj9r2aB7kBUvN213M24gJHPMa62uDqHJ6oy1CZ2FXxrTU_v2CzHqMAZy33kMWvlVl9r3aca80Kv5jB0c2vlQ1PU64mdyZF4JIFW522lC6wY7onGqm7HfHQbm0U9vrETw415SmKFb_fQU): Failed to open stream: no suitable wrapper could be found in /home/binarych1/ta.binarych.com/engine/recaptcha.class.php on line 41
+[05-May-2022 20:43:07 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/binarych1/ta.binarych.com/engine/recaptcha.class.php:41) in /home/binarych1/ta.binarych.com/engine/functions.php on line 883
+[06-May-2022 11:13:02 UTC] PHP Parse error:  syntax error, unexpected identifier "define" in /home/binarych1/ta.binarych.com/index.php on line 13
+[06-May-2022 11:13:06 UTC] PHP Parse error:  syntax error, unexpected identifier "define" in /home/binarych1/ta.binarych.com/index.php on line 13
+[06-May-2022 11:13:22 UTC] PHP Parse error:  syntax error, unexpected identifier "define" in /home/binarych1/ta.binarych.com/index.php on line 13
+[10-Jul-2022 12:42:30 Europe/Budapest] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2 in /home/binarych1/ta.binarych.com/engine/connection.class.php:14
+Stack trace:
+#0 /home/binarych1/ta.binarych.com/engine/connection.class.php(14): mysqli_query(Object(mysqli), 'select alias, u...')
+#1 /home/binarych1/ta.binarych.com/engine/connection.class.php(64): Connection->query('select alias, u...')
+#2 /home/binarych1/ta.binarych.com/route/function/api.php(147): Connection->getArray('select alias, u...')
+#3 /home/binarych1/ta.binarych.com/index.php(31): require_once('/home/binarych1...')
+#4 {main}
+  thrown in /home/binarych1/ta.binarych.com/engine/connection.class.php on line 14
+[10-Jul-2022 12:59:01 Europe/Budapest] PHP Parse error:  Unclosed '(' does not match ']' in /home/binarych1/ta.binarych.com/route/function/api.php on line 116
+[10-Jul-2022 13:56:44 Europe/Budapest] PHP Parse error:  syntax error, unexpected token ")" in /home/binarych1/ta.binarych.com/route/function/api.php on line 221
+[10-Jul-2022 13:57:42 Europe/Budapest] PHP Parse error:  syntax error, unexpected variable "$table_context" in /home/binarych1/ta.binarych.com/route/function/api.php on line 220
+[22-Jul-2022 04:04:01 Europe/Budapest] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/binarych1/ta.binarych.com/engine/connection.class.php:8
+Stack trace:
+#0 /home/binarych1/ta.binarych.com/engine/connection.class.php(8): mysqli_connect('localhost', 'binarych_ta', 'Z9ztn{W@[~a8', 'binarych_ta')
+#1 /home/binarych1/ta.binarych.com/init.php(17): Connection->__construct('localhost', 'binarych_ta', 'Z9ztn{W@[~a8', 'binarych_ta')
+#2 /home/binarych1/ta.binarych.com/index.php(30): require_once('/home/binarych1...')
+#3 {main}
+  thrown in /home/binarych1/ta.binarych.com/engine/connection.class.php on line 8
+[09-Sep-2022 04:04:01 Europe/Budapest] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/binarych1/ta.binarych.com/engine/connection.class.php:8
+Stack trace:
+#0 /home/binarych1/ta.binarych.com/engine/connection.class.php(8): mysqli_connect('localhost', 'binarych_ta', 'Z9ztn{W@[~a8', 'binarych_ta')
+#1 /home/binarych1/ta.binarych.com/init.php(17): Connection->__construct('localhost', 'binarych_ta', 'Z9ztn{W@[~a8', 'binarych_ta')
+#2 /home/binarych1/ta.binarych.com/index.php(30): require_once('/home/binarych1...')
+#3 {main}
+  thrown in /home/binarych1/ta.binarych.com/engine/connection.class.php on line 8
+[19-Oct-2022 04:03:01 Europe/Budapest] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/binarych1/ta.binarych.com/engine/connection.class.php:8
+Stack trace:
+#0 /home/binarych1/ta.binarych.com/engine/connection.class.php(8): mysqli_connect('localhost', 'binarych_ta', 'Z9ztn{W@[~a8', 'binarych_ta')
+#1 /home/binarych1/ta.binarych.com/init.php(17): Connection->__construct('localhost', 'binarych_ta', 'Z9ztn{W@[~a8', 'binarych_ta')
+#2 /home/binarych1/ta.binarych.com/index.php(30): require_once('/home/binarych1...')
+#3 {main}
+  thrown in /home/binarych1/ta.binarych.com/engine/connection.class.php on line 8
+[27-Oct-2022 04:05:01 Europe/Budapest] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/binarych1/ta.binarych.com/engine/connection.class.php:8
+Stack trace:
+#0 /home/binarych1/ta.binarych.com/engine/connection.class.php(8): mysqli_connect('localhost', 'binarych_ta', 'Z9ztn{W@[~a8', 'binarych_ta')
+#1 /home/binarych1/ta.binarych.com/init.php(17): Connection->__construct('localhost', 'binarych_ta', 'Z9ztn{W@[~a8', 'binarych_ta')
+#2 /home/binarych1/ta.binarych.com/index.php(30): require_once('/home/binarych1...')
+#3 {main}
+  thrown in /home/binarych1/ta.binarych.com/engine/connection.class.php on line 8
+[27-Oct-2022 04:05:01 Europe/Budapest] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/binarych1/ta.binarych.com/engine/connection.class.php:8
+Stack trace:
+#0 /home/binarych1/ta.binarych.com/engine/connection.class.php(8): mysqli_connect('localhost', 'binarych_ta', 'Z9ztn{W@[~a8', 'binarych_ta')
+#1 /home/binarych1/ta.binarych.com/init.php(17): Connection->__construct('localhost', 'binarych_ta', 'Z9ztn{W@[~a8', 'binarych_ta')
+#2 /home/binarych1/ta.binarych.com/index.php(30): require_once('/home/binarych1...')
+#3 {main}
+  thrown in /home/binarych1/ta.binarych.com/engine/connection.class.php on line 8
+[09-Dec-2022 04:03:01 Europe/Budapest] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/binarych1/ta.binarych.com/engine/connection.class.php:8
+Stack trace:
+#0 /home/binarych1/ta.binarych.com/engine/connection.class.php(8): mysqli_connect('localhost', 'binarych_ta', 'Z9ztn{W@[~a8', 'binarych_ta')
+#1 /home/binarych1/ta.binarych.com/init.php(17): Connection->__construct('localhost', 'binarych_ta', 'Z9ztn{W@[~a8', 'binarych_ta')
+#2 /home/binarych1/ta.binarych.com/index.php(30): require_once('/home/binarych1...')
+#3 {main}
+  thrown in /home/binarych1/ta.binarych.com/engine/connection.class.php on line 8
+[28-Dec-2022 04:04:01 Europe/Budapest] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/binarych1/ta.binarych.com/engine/connection.class.php:8
+Stack trace:
+#0 /home/binarych1/ta.binarych.com/engine/connection.class.php(8): mysqli_connect('localhost', 'binarych_ta', 'Z9ztn{W@[~a8', 'binarych_ta')
+#1 /home/binarych1/ta.binarych.com/init.php(17): Connection->__construct('localhost', 'binarych_ta', 'Z9ztn{W@[~a8', 'binarych_ta')
+#2 /home/binarych1/ta.binarych.com/index.php(30): require_once('/home/binarych1...')
+#3 {main}
+  thrown in /home/binarych1/ta.binarych.com/engine/connection.class.php on line 8
+[28-Dec-2022 04:05:06 Europe/Budapest] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/binarych1/ta.binarych.com/engine/connection.class.php:8
+Stack trace:
+#0 /home/binarych1/ta.binarych.com/engine/connection.class.php(8): mysqli_connect('localhost', 'binarych_ta', 'Z9ztn{W@[~a8', 'binarych_ta')
+#1 /home/binarych1/ta.binarych.com/init.php(17): Connection->__construct('localhost', 'binarych_ta', 'Z9ztn{W@[~a8', 'binarych_ta')
+#2 /home/binarych1/ta.binarych.com/index.php(30): require_once('/home/binarych1...')
+#3 {main}
+  thrown in /home/binarych1/ta.binarych.com/engine/connection.class.php on line 8
+[28-Dec-2022 04:05:06 Europe/Budapest] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/binarych1/ta.binarych.com/engine/connection.class.php:8
+Stack trace:
+#0 /home/binarych1/ta.binarych.com/engine/connection.class.php(8): mysqli_connect('localhost', 'binarych_ta', 'Z9ztn{W@[~a8', 'binarych_ta')
+#1 /home/binarych1/ta.binarych.com/init.php(17): Connection->__construct('localhost', 'binarych_ta', 'Z9ztn{W@[~a8', 'binarych_ta')
+#2 /home/binarych1/ta.binarych.com/index.php(30): require_once('/home/binarych1...')
+#3 {main}
+  thrown in /home/binarych1/ta.binarych.com/engine/connection.class.php on line 8

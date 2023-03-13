@@ -1,0 +1,26 @@
+<form action="{{url}}function/list/field/mod" class="bottom20" method="post">
+	<div class="form-group">
+		<label for="d{{id}}">{{id}}. {{l_fieldname}}:</label>
+		<input type="text" {{disabled}} class="form-control form-control-sm" id="d{{id}}" name="name" value="{{field_name}}" placeholder="{{l_fieldname}}">
+		<small class="form-text text-muted">{{l_fieldname_comment}}</small>
+	</div>
+	<div class="form-group">
+		<label for="d{{id}}req">{{l_required}}:</label>
+		<select class="form-control form-control-sm" id="d{{id}}req" name="req">
+			<option value="1"{{yes_selected}}>{{l_yes}}</option>
+			<option value="0"{{no_selected}}>{{l_no}}</option>
+		</select>
+	</div>
+	
+	<input type="hidden" name="d" value="{{id}}">
+	<input type="hidden" name="list_id" value="{{list_id}}">
+	
+	<div class="row">
+		<div class="col-6">
+			<input class="btn w100 btn-primary btn-sm" type="submit" value="{{l_save}}">
+		</div>
+		<div class="col-6">
+			<a href="{{url}}function/list/field/del/{{list_id}}" class="{{delete_hide}} w100 confirm btn btn-danger btn-sm">{{l_field_delete}}</a>
+		</div>
+	</div>
+</form>

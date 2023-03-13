@@ -1,0 +1,25 @@
+
+<form action="{{url}}function/public/login" id="loginform" method="post">
+	<div class="form-group">
+		<label for="mail">Email cím:</label>
+		<input type="email" required class="form-control form-control-sm" id="mail" name="mail" placeholder="Email cím" />
+	</div>
+	<div class="form-group">
+		<label for="pass">Jelszó:</label>
+		<input type="password" required class="form-control form-control-sm" id="pass" name="pass" placeholder="Jelszó" />
+	</div>
+	<input class="btn btn-primary btn-sm w100 g-recaptcha" data-sitekey="{{recaptcha_public}}" data-callback="onSubmit" type="submit" value="Bejelentkezés" />
+	
+	<div class="other_options">
+		<a href="{{url}}reg">regisztráció</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{url}}newpass">elfelejtett jelszó</a>
+	</div>
+</form>
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script>
+	function onSubmit(token) {
+		if (document.getElementById("loginform").reportValidity()){
+			document.getElementById("loginform").submit();
+		}
+	}
+ </script>

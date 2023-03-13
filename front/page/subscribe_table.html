@@ -1,0 +1,65 @@
+<div class="wide_stuff_container">
+	<table class="table">
+		<thead>
+			<tr>
+				<th></th>
+				<th class="center"><i class="fa-solid fa-circle" style="color:var(--betekinto);"></i><br />betekintő<br /><small>ingyenes</small></th>
+				<th class="center"><i class="fa-solid fa-circle" style="color:var(--tanulo);"></i><br />tanuló<br /><small>{{tanulo_price}} {{currency}}</small></th>
+				<th class="center"><i class="fa-solid fa-circle" style="color:var(--swingtrader);"></i><br />swing trader<br /><small>{{swingtrader_price}} {{currency}}</small></th>
+				<th class="center"><i class="fa-solid fa-circle" style="color:var(--daytrader);"></i><br />daytrader<br /><small>{{daytrader_price}} {{currency}}</small></th>
+				<th class="center"><i class="fa-solid fa-circle" style="color:var(--protrader);"></i><br />pro trader<br /><small>hamarosan</small></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Teljes H1 idősík</td>
+				<td class="center"><i class="fas fa-times"></i></td>
+				<td class="center"><i style="color:var(--tanulo);" class="fas fa-check-circle"></i></td>
+				<td class="center"><i style="color:var(--swingtrader);" class="fas fa-check-circle"></i></td>
+				<td class="center"><i style="color:var(--daytrader);" class="fas fa-check-circle"></i></td>
+				<td class="center"><i style="color:var(--protrader);" class="fas fa-check-circle"></i></td>
+			</tr>
+			<tr>
+				<td>Backtest példatár</td>
+				<td class="center"><i class="fas fa-times"></i></td>
+				<td class="center"><i style="color:var(--tanulo);" class="fas fa-check-circle"></i></td>
+				<td class="center"><i style="color:var(--swingtrader);" class="fas fa-check-circle"></i></td>
+				<td class="center"><i style="color:var(--daytrader);" class="fas fa-check-circle"></i></td>
+				<td class="center"><i style="color:var(--protrader);" class="fas fa-check-circle"></i></td>
+			</tr>
+			<tr>
+				<td>H4 idősík és H1, H4 Discord értesítések</td>
+				<td class="center"><i class="fas fa-times"></i></td>
+				<td class="center"><i class="fas fa-times"></i></td>
+				<td class="center"><i style="color:var(--swingtrader);" class="fas fa-check-circle"></i></td>
+				<td class="center"><i style="color:var(--daytrader);" class="fas fa-check-circle"></i></td>
+				<td class="center"><i style="color:var(--protrader);" class="fas fa-check-circle"></i></td>
+			</tr>
+			<tr>
+				<td>M1, M5, M15 idősíkok és Discord értesítéseik</td>
+				<td class="center"><i class="fas fa-times"></i></td>
+				<td class="center"><i class="fas fa-times"></i></td>
+				<td class="center"><i class="fas fa-times"></i></td>
+				<td class="center"><i style="color:var(--daytrader);" class="fas fa-check-circle"></i></td>
+				<td class="center"><i style="color:var(--protrader);" class="fas fa-check-circle"></i></td>
+			</tr>
+			<tr>
+				<td>Egyedi Discord értesítések</td>
+				<td class="center"><i class="fas fa-times"></i></td>
+				<td class="center"><i class="fas fa-times"></i></td>
+				<td class="center"><i class="fas fa-times"></i></td>
+				<td class="center"><i class="fas fa-times"></i></td>
+				<td class="center"><i style="color:var(--protrader);" class="fas fa-check-circle"></i></td>
+			</tr>
+			<tr>
+				<td><small><a style="display: inline-block; padding: 5px;" href="{{url}}subscribe">&laquo; vissza</a></small></td>
+				<td class="center"></td>
+				<td class="center"><a href="{{url}}function/subscribe/start?account_type=tanulo" class="buy_button tanulo trans">ezt választom</a></td>
+				<td class="center"><a href="{{url}}function/subscribe/start?account_type=swingtrader" class="buy_button swingtrader trans">ezt választom</a></td>
+				<td class="center"><a href="{{url}}function/subscribe/start?account_type=daytrader" class="buy_button daytrader trans">ezt választom</a></td>
+				<td class="center"><span href="{{url}}" class="buy_button protrader trans" data-toggle="tooltip" data-placement="bottom" data-html="true" title="hamarosan...">ezt választom</span></td>
+			</tr>
+		</tbody>
+	
+	</table>
+</div>

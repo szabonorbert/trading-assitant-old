@@ -1,0 +1,40 @@
+<form action="{{url}}function/public/reg" id="regform" method="post">
+	<div class="form-group">
+		<label for="name">Név:</label>
+		<input type="text" required class="form-control form-control-sm" id="name" name="name" placeholder="Név" />
+	</div>
+	<div class="form-group">
+		<label for="mail">Email cím:</label>
+		<input type="email" required class="form-control form-control-sm" id="mail" name="mail" placeholder="Email cím" />
+	</div>
+	<div class="form-group">
+		<label for="pass">Jelszó:</label>
+		<input type="password" required class="form-control form-control-sm" id="pass" name="pass" placeholder="Jelszó" />
+	</div>
+	<div class="form-group">
+		<label for="pass">Jelszó még egyszer:</label>
+		<input type="password" required class="form-control form-control-sm" id="pass2" name="pass2" placeholder="Jelszó még egyszer" />
+	</div>
+	<div class="form-group">
+		<label for="discord_name">Discord név a Trading Assistant szerveren:</label>
+		<input type="text" required class="form-control form-control-sm" id="discord_name" name="discord_name" placeholder="Discord név a Trading Assistant szerveren" />
+	</div>
+	<div class="custom-control custom-checkbox my-1 mr-sm-2">
+		<input type="checkbox" required class="custom-control-input" id="customControlInline">
+		<label class="custom-control-label" for="customControlInline">Elfogadom az <a href="{{url}}adatkezelesi" target="_blank">adatkezelési nyilatkozatot</a></label>
+	</div>
+	<input class="top20 btn btn-primary btn-sm w100 g-recaptcha" data-sitekey="{{recaptcha_public}}" data-callback="onSubmit" type="submit" value="Regisztráció" />
+	
+	<div class="other_options">
+		<a href="{{url}}login">vissza</a>
+	</div>
+</form>
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script>
+	function onSubmit(token) {
+		if (document.getElementById("regform").reportValidity()){
+			document.getElementById("regform").submit();
+		}
+	}
+ </script>
